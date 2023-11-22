@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/stylescarrito.css">
+  <title>Document</title>
+
+</head>
+<body>
+ 
+    <header>
+        <h1>Carrito de Compras</h1>
+    </header>
+    <main>
+        <section id="productos">
+            <article class="producto">
+                <img src="ruta/de/imagen1.jpg" alt="Producto 1">
+                <h2>Producto 1</h2>
+                <p>Descripción del producto.</p>
+                <p>Precio: $20.00</p>
+                <button class="agregar-carrito" onclick="agregarAlCarrito('Producto 1', 20.00)">Agregar al carrito</button>
+            </article>
+
+            <!-- Repite la estructura del artículo para cada producto -->
+        </section>
+
+        <section id="carrito">
+            <h2>Carrito</h2>
+            <ul id="lista-carrito">
+                <!-- La lista de productos en el carrito se llenará dinámicamente con JavaScript -->
+            </ul>
+            <p>Total: <span id="total-carrito">$0.00</span></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tienda en línea. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
