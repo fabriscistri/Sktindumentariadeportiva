@@ -11,32 +11,39 @@
 </head>
 <body>
   <header>
-    <nav class="nav-padre">
-      <div class="div-padre">
-        <div class="div-login">
-          <section>
-            <a href="./Login.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Login</a>
-            <a href="./registro.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">Registrate</a>
-            <a href="./registro.html" class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"><i class="fa-solid fa-cart-shopping"></i></a>
-
-          </section>
+    <nav class="navbar navbar-expand-lg navbar bg-primary fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <img class="logoImg d-none d-lg-block" src="./assets/logoSKT.png" width="5%" alt="logoSkt">
+        <a class="navbar-brand" href="#">SKT</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./registro.html" target="_blank">Registrate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./Login.html" target="_blank">Login</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Accion</a></li>
+                <li><a class="dropdown-item"  href="Oportunidades.html">Oportunidades</a></li>
+                <li><a class="dropdown-item" href="Nba.html">Nba</a></li>
+                <li><a class="dropdown-item" href="Futbol.html">Futbol</a></li>    
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar pelicula" aria-label="Search">
+            <button class="btn btn-warning" type="submit">Buscar</button>
+          </form>
         </div>
-        <div>
-          <section>
-            <img
-              class="logo-skt"
-              src="./assets/logoSKT.png"
-              alt="logo"
-              width="30%"
-            />
-          </section>
-        </div>
-        <div>
-          <section>
-            <input type="text" class="buscador" placeholder="Buscar.." />
-            <button class="boton-buscador">Buscar</button>
-          </section>
-        </div>    
       </div>
     </nav>
   </header>
@@ -53,7 +60,7 @@
               <h5 class="card-title">Shirt Ditroit Pistons</h5>
               <p class="card-text">Nba Edicion City</p>
               <p class="card-text"><small class="text-body-secondary">$20.000</small></p>
-              <a href="carrito.html" class="btn btn-primary">Agregar al carrito</a>
+              <a href="#" class="btn btn-primary">Agregar al carrito</a>
               <a href="./Error404.html" class="btn btn-primary">Comprar</a>
             </div>
           </div>   
