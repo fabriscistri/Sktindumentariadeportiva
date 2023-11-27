@@ -38,7 +38,7 @@ a {
 }
 .footer{
   width: 100%;
-  background-color: #0a141d;
+  background-color: #0077b6;
 }
 
 .footer .grupo-1{
@@ -66,7 +66,7 @@ a {
   font-size: 20px;
 }
 .footer .grupo-1 .box p{
-  color: #777474;
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -88,10 +88,16 @@ a {
 }
 
 .footer .grupo-2{
-  background-color: #0a1a2a;
+  background-color:   #0d2033;
   padding: 15px 10px;
   text-align: center;
   color: azure; 
+}
+.enlace{
+  text-decoration: none;
+  color: #0a141d;
+  
+  
 }
 @media screen and (max-width:800px){
   .footer .grupo-1{
